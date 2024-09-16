@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            direction: rtl;
+        }
+        table{
+            border: 1px solid #d87ff3;
+            border-radius: 1rem;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px dashed #8a69e7;
+            text-align: center;
+        }
+        th:hover{
+            background-color: #efefef;
+        }
+        td:hover{
+            background: #efefef;
+        }
+        .head{
+            border-bottom: 2px solid #d87ff3;
+        }
+        .lasttr{
+            border-left: 2px solid #d87ff3;
+        }
+    </style>
+</head>
+<body>
+    
+    <table border="1" style="width:70%; height: 65%; margin: 5rem auto;">
+
+        <tr>
+            <th rowspan="3" colspan="3" class="head">ID</th>
+        </tr>
+
+        <tr>
+            <th rowspan="2" colspan="3" class="head">Name</th>
+        </tr>
+
+        <tr>
+            <th rowspan="1" colspan="3" class="head">Phone</th>
+        </tr>
+
+        <tr>
+            <td rowspan="11">1234</td>
+        </tr>
+        <tr>
+            <td rowspan="10">1234</td>
+        </tr>
+        <tr>
+            <td rowspan="9" class="lasttr">1234</td>
+        </tr>
+        <tr>
+            <td rowspan="8">Ali</td>
+        </tr>
+        <tr>
+            <td rowspan="7">Ali</td>
+        </tr>
+        <tr>
+            <td rowspan="6" class="lasttr">Ali</td>
+        </tr>
+        <tr>
+            <td rowspan="5">123456</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="head">tel1</td>
+        </tr>
+        <tr>
+            <td class="head">tel2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">123456</td>
+        </tr>
+        <tr>
+            <td>123456</td>
+        </tr>
+    </table>
+</body>
+</html>

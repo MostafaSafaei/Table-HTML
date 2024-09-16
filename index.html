@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            direction: rtl;
+        }
+        table{
+            border: 1px solid #8a69e7;
+            border-radius: 1rem;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px dashed #8a69e7;
+            text-align: center;
+        }
+        th:hover{
+            background-color: #efefef;
+        }
+        td:hover{
+            background: #efefef;
+        }
+        .head{
+            border-left: 2px solid #8a69e7;
+        }
+        .lasttr{
+            border-bottom: 2px solid #8a69e7;
+        }
+    </style>
+</head>
+    <body>
+        
+        <table border="1" style="width:70%; height: 65%; margin: 5rem auto;">
+            <tr>
+                <th rowspan="3" class="head">ID</th>
+                <td colspan="2">1234</td>
+            </tr>
+            <tr>
+                <td colspan="2">1234</td>
+            </tr>
+            <tr class="lasttr">
+                <td colspan="2">1234</td>
+            </tr>
+            <tr>
+                <th rowspan="3" class="head">
+                    Name
+                </th>
+                <td colspan="2">
+                    Ali
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Ali
+                </td>
+            </tr>
+            <tr class="lasttr">
+                <td colspan="2">
+                    Ali
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="3" class="head">
+                    Phone
+                </th>
+                <td colspan="2">
+                    123456789
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    tel2
+                </th>
+                <th>
+                    tel1
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    123456
+                </td>
+                <td>
+                    123456
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
